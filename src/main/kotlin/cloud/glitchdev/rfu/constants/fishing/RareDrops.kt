@@ -25,6 +25,7 @@ enum class RareDrops(
     SEVERED_PINCER("Severed Pincer", Rarity.LEGENDARY, listOf("Fiery Scuttler")),
     SCUTTLER_SHELL("Scuttler Shell", Rarity.LEGENDARY, listOf("Fiery Scuttler")),
     PYROCLASM_BOOK("Enchanted Book (Pyroclasm VI)", Rarity.COMMON, listOf("Magma Pillar"), """Enchanted Book \(Pyroclasm (?:6|VI)\)""", "Pyroclasm");
+    
 
     override val relatedScs: List<SeaCreatures>
         get() = relatedScNames.mapNotNull { SeaCreatures.get(it) }
