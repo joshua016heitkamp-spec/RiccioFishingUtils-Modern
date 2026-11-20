@@ -20,7 +20,6 @@ enum class RareDrops(
     SNAKE_EYES("Snake Eyes", Rarity.LEGENDARY, listOf("Titanoboa")),
     LUCKY_CLOVER_CORE("Lucky Clover Core", Rarity.EPIC, listOf("Carrot King")),
     VIBRANT_CORAL("Vibrant Coral", Rarity.LEGENDARY, listOf("Nessie")),
-    REINFORCED_NETTING("Reinforced Netting", Rarity.LEGENDARY, lostOf("Giant Isopod")),
     FLASH_BOOK("Enchanted Book (Flash I)", Rarity.COMMON, listOf("Thunder"), """Enchanted Book \(Flash (?:1|I)\)""", "Flash"),
     DEEP_SEA_ORB("Deep Sea Orb", Rarity.EPIC, listOf("Grim Reaper", "Phantom Fisher", "Werewolf")),
     PRINCE_CROWN_JEWEL("Prince's Crown Jewel", Rarity.LEGENDARY, listOf("Frog Prince"), displayName = "Crown Jewel"),
