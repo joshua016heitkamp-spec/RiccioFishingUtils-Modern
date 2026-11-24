@@ -9,15 +9,22 @@ enum class RareDrops(
     override val displayName: String = dropName
 ) : IRareDrop {
     //Drops
+    CHAIN_END_TIMES("Chain of the End Times", Rarity.LEGENDARY, listOf("Ragnarok")),
+    BRIMSTONE_HANDLE("Brimstone Handle", Rarity.EPIC, listOf("Ragnarok")),
     BURNT_TEXTS("Burnt Texts", Rarity.LEGENDARY, listOf("Ragnarok")),
     RADIOACTIVE_VIAL("Radioactive Vial", Rarity.MYTHIC, listOf("Lord Jawbus")),
+    OCTOPUS_TENDRIL("Octopus Tendril", Rarity.LEGENDARY, listOf("Blue Ringed Octopus")),
+    TROUBLED_BUBBLE("Troubled Bubble", Rarity.LEGENDARY, listOf("Wiki Tiki")),
     TIKI_MASK("Tiki Mask", Rarity.LEGENDARY, listOf("Wiki Tiki")),
     TITANOBOA_SHED("Titanoboa Shed", Rarity.LEGENDARY, listOf("Titanoboa")),
     SNAKE_EYES("Snake Eyes", Rarity.LEGENDARY, listOf("Titanoboa")),
     LUCKY_CLOVER_CORE("Lucky Clover Core", Rarity.EPIC, listOf("Carrot King")),
+    VIBRANT_CORAL("Vibrant Coral", Rarity.LEGENDARY, listOf("Nessie")),
     FLASH_BOOK("Enchanted Book (Flash I)", Rarity.COMMON, listOf("Thunder"), """Enchanted Book \(Flash (?:1|I)\)""", "Flash"),
     DEEP_SEA_ORB("Deep Sea Orb", Rarity.EPIC, listOf("Grim Reaper", "Phantom Fisher", "Werewolf")),
+    HILT_OF_TRUE_ICE("True Ice", Rarity.LEGENDARY, listOf("Yeti")),
     PRINCE_CROWN_JEWEL("Prince's Crown Jewel", Rarity.LEGENDARY, listOf("Frog Prince"), displayName = "Crown Jewel"),
+    SEVERED_PINCER("Severed Pincer", Rarity.LEGENDARY, listOf("Fiery Scuttler")),
     SCUTTLER_SHELL("Scuttler Shell", Rarity.LEGENDARY, listOf("Fiery Scuttler")),
     PYROCLASM_BOOK("Enchanted Book (Pyroclasm VI)", Rarity.COMMON, listOf("Magma Pillar"), """Enchanted Book \(Pyroclasm (?:6|VI)\)""", "Pyroclasm");
 
