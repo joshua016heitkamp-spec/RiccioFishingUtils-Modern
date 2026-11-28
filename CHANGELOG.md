@@ -8,7 +8,7 @@
 - Added an option to show the Bobbin' Time Magic Find bonus when a rare sea creature dies.
 - Added Mute Non-RFU Sounds to silence game audio while keeping RFU alerts and the timer ding.
 - Added /rfuemojis or /rfuemojiedit to browse, search, and manage emojis.
-- Emojis now automatically update from the RFU Emojis repository.
+- Emojis now update automatically, with options in Other settings to turn off updates or use a custom source.
 - Added setting that lets muted party members request a warp with Hypixel's muted private message.
 
 ### Changes
@@ -22,6 +22,8 @@
 - RNG Manipulation achievement now requires 200 MF or more
 - Rebalanced LF drop dry streak achievements for the Magic Find update.
 - The “What is Magic Find?” achievement has been retired. Players who previously had it can find it under the Legacy tab.
+- Changed the /rfupets rarity filter to filter by minimum rarity.
+- Made the party finder check the requirements more often if it fails
 
 ### Fixes
 - Fixed trackers resetting when an individual tracker went quiet during an active fishing session.
@@ -38,6 +40,9 @@
 - Fixed Hypixel detection when the server address includes a port.
 - Fixed Party Finder failing to load the party list when many parties are listed.
 - Fixed dye drop detection.
+- Fixed Render Chat Coords placing markers for max/min/avg tps messages.
+- Fixed text moving up when selected in input fields.
+- Fixed sea creature kill times now save if you die.
 
 ### Backend
 - Isolated chat and skill event listeners so errors in one listener do not skip others.
